@@ -7,7 +7,7 @@
                 <i class="feather icon-menu"></i>
             </a>
             <a href="index-1.htm">
-                <img class="img-fluid" src="..\files\assets\images\logo.png" alt="Theme-Logo">
+                <img class="img-fluid" src="{{ asset('adminty/files\assets\images\logo.png') }}" alt="Theme-Logo">
             </a>
             <a class="mobile-options">
                 <i class="feather icon-more-horizontal"></i>
@@ -87,8 +87,8 @@
                 <li class="user-profile header-notification">
                     <div class="dropdown-primary dropdown">
                         <div class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                            <span>John Doe</span>
+                            <img src="{{ asset('adminty/files\assets\images\avatar-4.jpg') }}" class="img-radius" alt="User-Profile-Image">
+                            <span>{{ Auth::user()->prenom }} {{ Auth::user()->nom }}</span>
                             <i class="feather icon-chevron-down"></i>
                         </div>
                         <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -113,9 +113,15 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="auth-normal-sign-in.htm">
+                                <a href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">
                                     <i class="feather icon-log-out"></i> Logout
                                 </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
                             </li>
                         </ul>
 

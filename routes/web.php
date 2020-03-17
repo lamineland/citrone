@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('frontend.pages.home');
 });
 
-Route::get('/admin', function () {
-    return view('backend.pages.home');
-});
+// Route::get('/admin', function () {
+//     return view('backend.pages.dashboard');
+// });
+
+Auth::routes();
+
+Route::get('/admin', 'HomeController@index')->name('admin');
