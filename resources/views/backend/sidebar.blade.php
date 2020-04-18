@@ -30,78 +30,23 @@
             <li class="pcoded-hasmenu">
                 <a href="javascript:void(0)">
                     <span class="pcoded-micon"><i class="feather icon-sidebar"></i></span>
-                    <span class="pcoded-mtext">Page layouts</span>
+                    <span class="pcoded-mtext">Produits</span>
                     <span class="pcoded-badge label label-warning">NEW</span>
                 </a>
                 <ul class="pcoded-submenu">
-                    <li class=" pcoded-hasmenu">
-                        <a href="javascript:void(0)">
-                            <span class="pcoded-mtext">Vertical</span>
-                        </a>
-                        <ul class="pcoded-submenu">
-                            <li class=" ">
-                                <a href="menu-static.htm">
-                                    <span class="pcoded-mtext">Static Layout</span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-header-fixed.htm">
-                                    <span class="pcoded-mtext">Header Fixed</span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-compact.htm">
-                                    <span class="pcoded-mtext">Compact</span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-sidebar.htm">
-                                    <span class="pcoded-mtext">Sidebar Fixed</span>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class=" pcoded-hasmenu">
-                        <a href="javascript:void(0)">
-                            <span class="pcoded-mtext">Horizontal</span>
-                        </a>
-                        <ul class="pcoded-submenu">
-                            <li class=" ">
-                                <a href="menu-horizontal-static.htm" target="_blank">
-                                    <span class="pcoded-mtext">Static Layout</span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-horizontal-fixed.htm" target="_blank">
-                                    <span class="pcoded-mtext">Fixed layout</span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-horizontal-icon.htm" target="_blank">
-                                    <span class="pcoded-mtext">Static With Icon</span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-horizontal-icon-fixed.htm" target="_blank">
-                                    <span class="pcoded-mtext">Fixed With Icon</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
                     <li class=" ">
                         <a href="menu-bottom.htm">
-                            <span class="pcoded-mtext">Bottom Menu</span>
+                            <span class="pcoded-mtext">Stock</span>
                         </a>
                     </li>
                     <li class=" ">
                         <a href="box-layout.htm" target="_blank">
-                            <span class="pcoded-mtext">Box Layout</span>
+                            <span class="pcoded-mtext">Vendu</span>
                         </a>
                     </li>
                     <li class=" ">
                         <a href="menu-rtl.htm" target="_blank">
-                            <span class="pcoded-mtext">RTL</span>
+                            <span class="pcoded-mtext">Invendu</span>
                         </a>
                     </li>
                 </ul>
@@ -109,72 +54,48 @@
             <li class="">
                 <a href="navbar-light.htm">
                     <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                    <span class="pcoded-mtext">Navigation</span>
+                    <span class="pcoded-mtext">Commandes</span>
                 </a>
             </li>
             <li class="pcoded-hasmenu">
                 <a href="javascript:void(0)">
                     <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
-                    <span class="pcoded-mtext">Widget</span>
+                    <span class="pcoded-mtext">Charges</span>
                     <span class="pcoded-badge label label-danger">100+</span>
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
                         <a href="widget-statistic.htm">
-                            <span class="pcoded-mtext">Statistic</span>
+                            <span class="pcoded-mtext">Internes</span>
                         </a>
                     </li>
                     <li class=" ">
                         <a href="widget-data.htm">
-                            <span class="pcoded-mtext">Data</span>
+                            <span class="pcoded-mtext">Externes</span>
                         </a>
                     </li>
-                    <li class="">
-                        <a href="widget-chart.htm">
-                            <span class="pcoded-mtext">Chart Widget</span>
-                        </a>
-                    </li>
-
                 </ul>
             </li>
         </ul>
         <div class="pcoded-navigatio-lavel">UI Element</div>
         <ul class="pcoded-item pcoded-left-item">
-            <li class="pcoded-hasmenu">
-                <a href="javascript:void(0)">
-                    <span class="pcoded-micon"><i class="feather icon-package"></i></span>
-                    <span class="pcoded-mtext">Extra Components</span>
+            <li class=" ">
+                <a href="animation.htm">
+                    <span class="pcoded-micon"><i class="feather icon-aperture"></i><b>A</b></span>
+                    <span class="pcoded-mtext">Users</span>
                 </a>
-                <ul class="pcoded-submenu">
-                    <li class=" ">
-                        <a href="session-timeout.htm">
-                            <span class="pcoded-mtext">Session Timeout</span>
-                        </a>
-                    </li>
-                    <li class=" ">
-                        <a href="session-idle-timeout.htm">
-                            <span class="pcoded-mtext">Session Idle Timeout</span>
-                        </a>
-                    </li>
-                    <li class=" ">
-                        <a href="offline.htm">
-                            <span class="pcoded-mtext">Offline</span>
-                        </a>
-                    </li>
-
-                </ul>
             </li>
             <li class=" ">
                 <a href="animation.htm">
-                    <span class="pcoded-micon"><i class="feather icon-aperture rotate-refresh"></i><b>A</b></span>
-                    <span class="pcoded-mtext">Animations</span>
+                    <span class="pcoded-micon"><i class="feather icon-aperture"></i><b>A</b></span>
+                    <span class="pcoded-mtext">Clients</span>
                 </a>
             </li>
             <li class=" ">
                 <a href="sticky.htm">
-                    <span class="pcoded-micon"><i class="feather icon-cpu"></i></span>
-                    <span class="pcoded-mtext">Sticky Notes</span>
-                    <span class="pcoded-badge label label-danger">HOT</span>
+                    <span class="pcoded-micon"><i class="feather icon-cpu rotate-refresh"></i></span>
+                    <span class="pcoded-mtext">Documentation</span>
+                    {{-- <span class="pcoded-badge label label-danger">HOT</span> --}}
                 </a>
             </li>
         </ul>

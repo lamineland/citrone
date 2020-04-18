@@ -30,6 +30,11 @@
                         <i class="feather icon-maximize full-screen"></i>
                     </a>
                 </li>
+                <li>
+                    <a href="/" target="_blank">
+                        <i class="fa fa-mail-forward"></i>
+                    </a>
+                </li>
             </ul>
             <ul class="nav-right">
                 <li class="header-notification">

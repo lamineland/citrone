@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('adminty/files\assets\pages\chart\radial\css\radial.css') }}" type="text/css" media="all">
     <!-- feather Awesome -->
     <link rel="stylesheet" type="text/css" href="{{ asset('adminty/files\assets\icon\feather\css\feather.css') }}">
+    <!-- font Awesome -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('adminty/files\assets\icon\font-awesome\css\font-awesome.min.css') }}">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('adminty/files\assets\css\style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('adminty/files\assets\css\jquery.mCustomScrollbar.css') }}">
