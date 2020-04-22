@@ -15,6 +15,12 @@ class CreateChargesTable extends Migration
     {
         Schema::create('charges', function (Blueprint $table) {
             $table->id();
+            $table->string('designation');
+            $table->string('type');
+            $table->date('date_charge');
+            $table->integer('cout');
+            $table->string('description')->nullable();
+
             $table->timestamps();
         });
     }
